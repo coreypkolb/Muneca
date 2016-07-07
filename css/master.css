@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700italic,900italic);
+.container {
+  max-width: 600px;
+  margin: 0 auto; }
+
+header {
+  background-color: #c70a0a;
+  color: #f6f7ec;
+  padding-top: 40px;
+  overflow: hidden;
+  margin: 0 0 75px 0; }
+
+header:before {
+  content: 'If the story reads like it was written in less than an hour, it is because it was.';
+  font-size: 14em;
+  line-height: .12em;
+  letter-spacing: .01em;
+  font-weight: 900;
+  opacity: .5;
+  position: absolute;
+  color: red;
+  font-family: 'Playfair Display', serif;
+  font-weigt: 900;
+  font-style: italic;
+  max-width: 1500px; }
+
+h1 {
+  font-size: 7em;
+  line-height: .92em;
+  margin-top: 0;
+  font-family: 'Playfair Display', serif;
+  font-weigt: 900;
+  font-style: italic; }
+
+p.author {
+  background-color: #fff;
+  color: #929292;
+  display: inline;
+  padding: 10px 60px 10px 10px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  line-height: 2em; }
+
+p.author span {
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  font-style: normal; }
